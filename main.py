@@ -14,7 +14,7 @@ client = MongoClient(
 db = client["cooksmart"]
 collection = db["signup_infos"]
 collection1 = db['recipeAndIngredientsGenerator']
-cooksmartDirectory = 'flask demo/resnet-model-23-02-21.h5'
+cooksmartDirectory = 'resnet-model-23-02-21.h5'
 cooksmartModel = keras.models.load_model(
     cooksmartDirectory)  # loaded the cooksmart trained model
 imageSize = (224, 224)
