@@ -19,7 +19,7 @@ cooksmartModel = keras.models.load_model(
     cooksmartDirectory)  # loaded the cooksmart trained model
 imageSize = (224, 224)
 
-# list of food items in the dataset
+# list of food item
 FOOD_CLASSES = {
     0: 'Adhirasam',
     1: 'Aloo Gobi',
