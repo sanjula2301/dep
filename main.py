@@ -1,9 +1,9 @@
+from main import cooksmartapp
 from flask import Flask, render_template, request, redirect, jsonify
 from pymongo import MongoClient
 from flask_bcrypt import Bcrypt
 from tensorflow import keras
 from flask import flash
-from main import cooksmartapp
 
 cooksmartapp = Flask(__name__)
 bcrypt = Bcrypt(cooksmartapp)
